@@ -13,7 +13,12 @@ filename = 'Pendulum_Vals123' # replace this with name of file created from data
 We have included Pendulum_Vals3.txt in our project as a test file to parse and analyze - use this to test the code. 
 
 - use Project 1 Plot.py to run a simulation for a pendulum swinging
-- The code required to calculate the period can be found at the bottom of [plotting.py](https://github.com/ES2Spring2019-ComputinginEngineering/project-one-emma-and-hector/blob/master/Plotting.py). 
+- The code required to calculate the period can be found at the bottom of [plotting.py](https://github.com/ES2Spring2019-ComputinginEngineering/project-one-emma-and-hector/blob/master/Plotting.py). It is also shown below:
+```
+peaks = t[y_noisy_filt_pks]
+time_difference = np.diff(peaks)
+period = str(np.sum(time_difference)/len(time_difference))
+```
 
 - use [LogGraphs.py](link.com) to analyze the effect of pendulum length on period.
 - [plotting.py](link.com) is the file where we defined most of the big functions, mainly plotting functions in addition to period calculation. Functions from this code are called by importing plotting.py as plot.
