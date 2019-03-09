@@ -6,7 +6,7 @@ How to use code:
 - use [Collection.py](https://github.com/ES2Spring2019-ComputinginEngineering/project-one-emma-and-hector/blob/master/Collection.py) in Mu to collect data from the microbit:
   - flash the file onto the microbit, then press the B button to start recording data
   - once you have finished, drag the file from the microbit (which should be labeled Pendulum_Vals + 3 random integers) to your computer
-- use [Parsingnew.py]https://github.com/ES2Spring2019-ComputinginEngineering/project-one-emma-and-hector/blob/master/pendulum%20project/parsingnew.py) to read the files created by running Collection.py and graph y acceleration vs time filtered, and theta vs time filtered. 
+- use [Parsingnew.py](https://github.com/ES2Spring2019-ComputinginEngineering/project-one-emma-and-hector/blob/master/pendulum%20project/parsingnew.py) to read the files created by running Collection.py and graph y acceleration vs time filtered, and theta vs time filtered. 
 ```
 filename = 'Pendulum_Vals123' # replace this with name of file created from data collection
 ```
